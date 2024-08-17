@@ -13,30 +13,20 @@
 
 To get started, clone the repository and install the dependencies:
 
-git clone https://github.com/Dis-Co-der/systel-bot.git
+**git clone https://github.com/Dis-Co-der/systel-bot.git
 cd systel-bot
-pip install .
+pip install .**
 
-In the '.env' file in the root directory and add your Telegram bot token and chat_id from telegram in the '':
+In the '.env' file in the root directory (.venv) and add your Telegram bot token and chat_id from telegram in the '':
 
-BOT_KEY='your_bot_key'
-CHAT_ID='your_chatid'
+**BOT_KEY='your_bot_key'
+CHAT_ID='your_chatid'**
+
+**Or you could hard code it too in the bot.py, your choice**
 
 After setting up, you can start the bot by running:
 
-python3 bot.py
-
-
-Project Structure:
-
-.
-├── bot.py           # Main script for monitoring and sending updates
-├── requirements.txt     # List of dependencies
-├── setup.py             # setup
-├── pyproject.toml       # Project configuration file
-├── README.md            # Project documentation
-├── LICENSE.txt          # LICENSE File  
-└── .env                 # Environment variables
+**python3 bot.py**
 
 Contributing
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
