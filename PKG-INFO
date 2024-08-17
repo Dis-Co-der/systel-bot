@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: systel-bot
+Version: 0.1.0
+Summary: A Telegram bot that monitors system performance and sends updates.
+Home-page: https://github.com/Dis-Co-der/systel-bot.git
+Author: Dan Lappisto
+Author-email: Dan Lappisto <lapitzlullaby@gmail.com>
+Project-URL: Homepage, https://github.com/Dis-Co-der/systel-bot.git
+Project-URL: Bug Tracker, https://github.com/Dis-Co-der/systel-bot/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pip==24.2
+Requires-Dist: setuptools==72.2.0
+Requires-Dist: wheel==0.44.0
+Requires-Dist: certifi==2024.7.4
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: GPUtil==1.4.0
+Requires-Dist: idna==3.7
+Requires-Dist: psutil==6.0.0
+Requires-Dist: pynvml==11.5.3
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: schedule==1.2.2
+Requires-Dist: urllib3==2.2.2
+
+# Systel-Bot
+
+**Systel-Bot** is a Python-based Telegram bot designed to monitor and report system performance metrics. The bot tracks CPU usage, RAM usage, and GPU metrics such as temperature, power usage, and memory usage, sending updates via Telegram at regular intervals.
+
+## Features
+
+- **CPU Monitoring**: Tracks and reports CPU usage percentage.
+- **RAM Monitoring**: Monitors used and total RAM.
+- **GPU Monitoring**: Reports GPU load, temperature, power usage, and memory usage.
+- **Telegram Notifications**: Sends regular updates to a specified Telegram chat.
+
+## Installation
+
+To get started, clone the repository and install the dependencies:
+
+git clone https://github.com/Dis-Co-der/systel-bot.git
+cd systel-bot
+pip install .
+
+In the '.env' file in the root directory and add your Telegram bot token and chat_id from telegram in the '':
+
+BOT_KEY='your_bot_key'
+CHAT_ID='your_chatid'
+
+After setting up, you can start the bot by running:
+
+python3 bot.py
+
+
+Project Structure:
+
+.
+├── bot.py           # Main script for monitoring and sending updates
+├── requirements.txt     # List of dependencies
+├── setup.py             # setup
+├── pyproject.toml       # Project configuration file
+├── README.md            # Project documentation
+├── LICENSE.txt          # LICENSE File  
+└── .env                 # Environment variables
+
+Contributing
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any inquiries or support, please reach out to Dan Lappisto at https://github.com/Dis-Co-der.
