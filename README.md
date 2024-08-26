@@ -35,4 +35,4 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any inquiries or support, please reach out to Dan Lappisto at https://github.com/Dis-Co-der.
+For any inquiries or support, please reach out to Dan Lappisto at https://github.com/PSYGNEX.
