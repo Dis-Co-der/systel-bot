@@ -13,7 +13,7 @@
 
 To get started, clone the repository and install the dependencies:
 
-**git clone https://github.com/Dis-Co-der/systel-bot.git
+**git clone https://github.com/PSYGNEX/systel-bot.git
 cd systel-bot
 pip install .**
 
